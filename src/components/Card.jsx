@@ -79,7 +79,6 @@ function CardBootstrap() {
           )}
         </Card.Text>
 
-        {/* Link alla pagina dei dettagli */}
         <Link to={`/weather/${weatherData ? weatherData.name : city}`}>
           <Card.Link>Dettagli</Card.Link>
         </Link>
